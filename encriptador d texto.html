@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///C:/Users/darcy/OneDrive/Documentos/programaci%C3%B3n/index.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./encriptador d texto_files/estilos.css">
+    <script type="text/javascript" src="./encriptador d texto_files/script.js.descarga"></script>
+    <title>Document</title>
+<style></style></head>
+<body>
+    <header>
+        <img src="./encriptador d texto_files/logo.png" alt="Logo aplicacion encriptar">
+    </header>
+    <main>
+        <section class="seccion_1">
+           
+            <textarea class="textarea" id="textoEncriptado" placeholder="Escribe tu texto aquí"></textarea>
+            <div class="contenedor_botones">
+                <input type="button" value="Encriptar" class="boton_encriptar" id="botonEncriptado">
+                <input type="button" value="Desencriptar" class="boton_desencriptar" id="botonDesencriptado">
+            </div>
+        </section>
+        <section class="seccion_2">
+            <div class="contenedor_imagen">
+                <img src="./encriptador d texto_files/Muñeco.png" alt="Muñeco">
+            </div>
+            <div class="contenedor_subtitulo">
+                <h3>Mensaje:</h3>
+            </div>
+            <div class="contenedor_parrafo">
+                <textarea class="textarea" id="textoDesencriptado"></textarea>
+        </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+
+
+
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+    var btn2 = document.querySelector("#botonDesencriptado");
+    btn2.onclick = desencriptar;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
